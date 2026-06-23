@@ -18,10 +18,10 @@ The repository itself is pure markdown plus a handful of helper scripts (mostly 
 
 ### Clone the repository
 
-Replace `YOUR-REPOSITORY-URL` below with the clone URL of this repository (for example, the SSH or HTTPS URL of your fork).
+Go to your root of your claude projects/ home / where you want your skills to be placed. Open a terminal here
 
 ```bash
-git clone YOUR-REPOSITORY-URL skills-repository
+git clone https://github.com/akshat-ideas/skills-repository skills-repository
 cd skills-repository
 ```
 
