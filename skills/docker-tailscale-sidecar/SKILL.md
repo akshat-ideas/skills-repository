@@ -136,6 +136,14 @@ TS_USERSPACE=false                        # true for userspace
 
 Generate the auth key with **Reusable** + a tag (e.g. `tag:container`) to skip manual `tailscale up`. Enable **Funnel** on the key for public exposure.
 
+#### `.dockerignore` — exclude the state directory
+
+Add `ts/` so the persisted node state (and any other `ts/` files) never get shipped into the build context:
+
+```gitignore
+ts/
+```
+
 ## Verification
 
 ```bash
